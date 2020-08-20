@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-rg -i $1 $WORK_DIR 
+rg -i "$*" $WORK_DIR 

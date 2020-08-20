@@ -22,4 +22,4 @@ Using this simple foundation, you can store any sort of information and retrieve
 **NOTE**: Quotation marks need to be escaped.
 
 ## importing
-Import into br by putting text files into your `$HOME/.br` directory. `brs` doesn't actually care how the files it's searching through are structured.
+Import into br by putting text files into your `$HOME/.br` directory. `brs` doesn't actually care how the files it's searching through are structured, and `brl` will never mess with any file except the one named with the current date as above.

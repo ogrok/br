@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "No content supplied"
+    exit 1
+fi
+
+# Get filename representing current date
+NOW=`date +"%Y-%m-%d"`
+NOW=$NOW.txt
+NOW_TIME=`date +"%H:%M"`
+
+WORK_DIR="$HOME/Documents/Services/Brain"
+WORK_FILE="$WORK_DIR/$NOW"
+
+echo "$NOW_TIME - $@" >> $WORK_FILE

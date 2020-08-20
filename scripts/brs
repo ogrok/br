@@ -1,0 +1,2 @@
+WORK_DIR="$HOME/Documents/Services/Brain"
+rg -i $1 $WORK_DIR 

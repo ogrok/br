@@ -8,6 +8,7 @@ br (short for "brain') is an extremely simple second-brain cli tool.
 ## setup
 1. choose a directory to store notes in
 2. edit the $WORK_DIR in both files to this directory
+3. put these two scripts somewhere in PATH
 
 **NOTE**: You should choose a directory that is otherwise empty as we will be searching it with ripgrep.
 

@@ -19,5 +19,7 @@ Use `brs` to search br for a thing. It will display all instances of the thing (
 
 Using this simple foundation, you can store any sort of information and retrieve it using any keyword or phrase you know how to represent with a regular expression.
 
+**NOTE**: Quotation marks need to be escaped.
+
 ## importing
 Import into br by putting text files into your `$HOME/.br` directory. `brs` doesn't actually care how the files it's searching through are structured.

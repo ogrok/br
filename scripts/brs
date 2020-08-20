@@ -1,2 +1,8 @@
 WORK_DIR="$HOME/Documents/Services/Brain"
+
+if [ -z "$1" ]; then
+    echo "No query supplied"
+    exit 1
+fi
+
 rg -i $1 $WORK_DIR 

@@ -1,0 +1,27 @@
+WORK_DIR="$HOME/.br"
+INBOX="$WORK_DIR/.inb"
+
+mkdir -p $WORK_DIR
+
+if [ ! -f "$INBOX" ]; then
+    touch $INBOX
+fi
+
+while getopts "gc" OPTION
+do
+    case $OPTION in
+        g)
+            head -1 $INBOX
+            exit
+            ;;
+        c)
+            sed '1d' $INBOX > $INBOX
+            exit
+            ;;
+    esac
+    shift
+done
+
+NOW=`date +"%Y-%m-%d %H:%M"`
+NOW="$NOW - "
+echo "$NOW$*" >> $INBOX

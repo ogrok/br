@@ -13,4 +13,4 @@ NOW_TIME=`date +"%H:%M"`
 WORK_DIR="$HOME/Documents/Services/Brain"
 WORK_FILE="$WORK_DIR/$NOW"
 
-echo "$NOW_TIME - $@" >> $WORK_FILE
+echo "$NOW_TIME - $*" >> $WORK_FILE

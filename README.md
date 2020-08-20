@@ -1,7 +1,7 @@
 # br
 br (short for "brain') is an extremely simple second-brain cli tool. It is comprised of three simple scripts. The first two, `brl` and `brs`, store and search through text (respectively) using a simple working directory of text files at `$HOME/.br`. By design, there is no deletion function—why would you want to delete things from your _brain_ anyway?
 
-The third script, `bri`, creates a rudimentary GTD inbox—see the related section below.
+The third script, `bri`, creates and manipulates a rudimentary GTD inbox—see the related section below.
 
 br follows the unix philosophy: everything is text, so you can build on this simple foundation any way you wish.
 

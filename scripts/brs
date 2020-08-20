@@ -1,4 +1,4 @@
-WORK_DIR="$HOME/Documents/Services/Brain"
+WORK_DIR="$HOME/.br"
 
 if [ -z "$1" ]; then
     echo "No query supplied"

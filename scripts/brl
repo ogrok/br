@@ -10,7 +10,9 @@ NOW=`date +"%Y-%m-%d"`
 NOW=$NOW.txt
 NOW_TIME=`date +"%H:%M"`
 
-WORK_DIR="$HOME/Documents/Services/Brain"
+WORK_DIR="$HOME/.br"
 WORK_FILE="$WORK_DIR/$NOW"
+
+mkdir -p $WORK_DIR
 
 echo "$NOW_TIME - $*" >> $WORK_FILE

@@ -25,7 +25,8 @@ do
             exit
             ;;
         c)
-            sed '1d' $INBOX > $INBOX
+            NEW_FILE=`sed '1d' $INBOX`
+            echo $NEW_FILE > $INBOX
             exit
             ;;
     esac

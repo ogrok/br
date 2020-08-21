@@ -16,7 +16,12 @@ while getopts "gc" OPTION
 do
     case $OPTION in
         g)
-            head -1 $INBOX
+            LINE=`head -1 $INBOX`
+            if [ -z "$LINE" ]; then
+                echo "Inbox zero!"
+            else
+                echo $LINE
+            fi
             exit
             ;;
         c)

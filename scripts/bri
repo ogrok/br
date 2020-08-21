@@ -8,10 +8,6 @@ if [ -z $1 ]; then
     exit 1
 fi
 
-if [ ! -f "$INBOX" ]; then
-    touch $INBOX
-fi
-
 while getopts "gc" OPTION
 do
     case $OPTION in

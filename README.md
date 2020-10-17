@@ -1,4 +1,4 @@
-**Note: currently buggy and needs an I/O fix to avoid wiping lines wrong**
+**Note: currently buggy and needs an I/O fix to avoid wiping lines wrong; super simple bug but I still haven't gotten round to fixing it**
 
 # br
 br (short for "brain') is an extremely simple second-brain cli tool. It is comprised of three simple scripts. The first two, `brl` and `brs`, store and search through text (respectively) using a simple working directory of text files at `$HOME/.br`. By design, there is no deletion function—why would you want to delete things from your _brain_ anyway?
